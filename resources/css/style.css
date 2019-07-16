@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+ }
+
+ @font-face {
+    font-family: 'RacingSansOne';
+    src: url(../../assets/fonts/Racing_Sans_One/RacingSansOne-Regular.ttf) format('truetype');
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #a7a7a9;
+    background: #0c0e10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100%;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content{
+    width: 970px;
+    height: 300px;
+}
+
+.container-content h2{
+    font-size: 4rem;
+    line-height: 0rem;
+}
+
+.container-content ul{
+    padding-left: 6rem;
+    font-size: 2rem;
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.container-content p, .vertical {
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+.container-content p{
+    line-height: 18px;
+    width: 60%;
+    padding-top: 4rem;
+}
+
+.vertical {
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    float: right;
+}
+
+.overlap{
+    opacity: 0.1;
+    position: absolute;
+    font-size: 20rem;
+    line-height: 10rem;
+}
+
+.container-content-footer{
+    padding-top: 40px;
+}
+
+.logo{
+    font-family: 'RacingSansOne', cursive;
+    font-weight: 900;
+    float: left;
+    width: 20%;
+}
+
+.social{
+    float: right;
+    width: 30%;
+}
+
+.social img {
+    width: 18px;
+    padding: 0 4px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .container-content {
+        width: 80%;
+        padding: 16px;
+    }
+
+    .container-content h2{
+        font-size: 28px;
+    }
+    
+    .container-content ul{
+        padding-left: 4rem;
+        font-size: 19px;
+    }
+    
+    .vertical {
+        padding-top: 8rem;
+    }
+
+    .overlap{
+        line-height: 4rem;
+        font-size: 16rem;
+    }
+
+}
