@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0c0e10">
     <title>MHFrough</title>
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
+    <script defer src="resources/js/main.js"></script>
 </head>
 
 <body>
 
     <div class="container">
         <div class="container-content">
+            <nav>
+                <label class="menu" for="menu-toggle">
+                    <img src="assets/img/menu.png" alt="menu">
+                </label>
+                <input type="checkbox" id="menu-toggle" />
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Product</a></li>
+                    </ul>
+                    <label class="toggle" for="switch-toggle">
+                        <img src="assets/img/moon.png" alt="menu">
+                    </label>
+                    <input type="checkbox" id="switch-toggle" name="theme"/>
+                </div>
+            </nav>
             <span class="overlap">&</span>
             <h2>Mohammad Hamza</h2>
             <ul>
@@ -22,12 +40,13 @@
             </ul>
 
             <span class="vertical">Contact or Hire</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque possimus totam minus recusandae dolores, distinctio officia dolor non quos consequatur similique facilis repudiandae in id ut eum. Officiis, consequuntur!</p>
+            <p>Hello there, this is Mohammad Hamza. I am Blogger, Developer, Programmer bla bla bla... for more
+                information <a href="#" class="view-profile">view my profile.</a></p>
 
             <div class="container-content-footer">
                 <span class="logo">@mhfrough</span>
                 <span class="social">
-                    <a class="fb" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
+                    <a href="#"><img src="assets/img/fb.png" alt="facebook"></a>
                     <a href="#"><img src="assets/img/tw.png" alt="Twitter"></a>
                     <a href="#"><img src="assets/img/gh.png" alt="Github"></a>
                 </span>
