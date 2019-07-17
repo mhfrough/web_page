@@ -186,6 +186,11 @@ body {
 }
 
 @media only screen and (orientation:landscape) {
+    
+    .container{
+        padding-top:30px;
+    }
+
     .container-content {
         width: 100%;
         padding: 16px;
