@@ -185,7 +185,7 @@ body {
     }
 }
 
-@media only screen and (orientation:landscape) {
+@media only screen and (max-device-width: 800px) {
     
     .container{
         padding-top:30px;
