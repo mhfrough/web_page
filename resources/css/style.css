@@ -128,11 +128,24 @@ body {
 }
 
 .vertical {
+    width:20%;
     transform: rotate(270deg);
     transform-origin: left top 0;
     float: right;
-    padding-top: 28px;
+    padding-top: 7.08rem;
     cursor: pointer;
+    transition: all 2 ease;
+}
+
+
+.vertical:hover span{
+    display: none;
+    transition: all 2 ease;
+}
+
+.vertical:hover:before{
+    content: 'connect [at] mhfrough.dev';
+    transition: all 2 ease;
 }
 
 .overlap{
@@ -218,7 +231,8 @@ body {
     }
 
     .vertical {
-        padding-top: 50px;
+        padding-top: 8.8rem;
+        width: 28%;
     }
 
     .overlap{
@@ -263,7 +277,8 @@ body {
     }
     
     .vertical {
-        padding-top: 5.8rem;
+        padding-top: 11.2rem;
+    width: 12.8rem;
     }
 
     .overlap{
