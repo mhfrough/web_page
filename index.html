@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#0c0e10">
-    <meta property="og:title" content="MHFrough - Personal Page" />
-    <meta property="og:url" content="https://www.mhfrough.netlify.com" />
-    <meta name="description" content="mohammad hamza is application developer and product designer" />
-    <meta name="keywords" content="programmer, developer, designer, blogger, entrepreneur, information technology"/>
-    <title>MHFrough - Personal Page</title>
-    <link rel="stylesheet" href="resources/css/style.min.css">
+    <meta property="og:title" content="MHFrough - Personal Website Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mhfrough.netlify.com/" />
+    <meta property="og:image" content="assets/img/icon/favicon.jpg" />
+    <meta name="og:description"
+        content="Mohammad Hamza is IT expert, Entrepreneur, Blogger, Application developer and Product designer" />
+    <meta name="keywords" content="programmer, developer, designer, blogger, entrepreneur, information technology" />
+    <title>MHFrough - Personal Website Page</title>
+    <link rel="stylesheet" hreflang="en" href="resources/css/style.min.css">
     <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
     <script defer src="resources/js/main.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="container-content">
+        <div class="container-content" itemscope itemtype="http://schema.org/Person">
             <nav>
                 <label class="menu" for="menu-toggle">
                     <img src="assets/img/menu.png" alt="menu">
@@ -36,7 +39,7 @@
                 </div>
             </nav>
             <span class="overlap">&</span>
-            <h1>Mohammad Hamza</h1>
+            <h1 itemprop="name">Mohammad Hamza</h1>
             <ul>
                 <li>Application Developer</li>
                 <li>Product Designer</li>
@@ -44,8 +47,9 @@
             <span class="vertical">
                 <span>Contact or Hire</span>
             </span>
-            <p>Hello there, this is Mohammad Hamza. I am Blogger, Developer, Programmer blah blah blah... for more
-                information <a href="#" class="view-profile">view my profile</a></p>
+            <p itemprop="description">Hello there, this is Mohammad Hamza. I am Blogger, Developer, Programmer blah blah
+                blah... for more
+                information <a href="#" class="view-profile" itemprop="url">view my profile</a></p>
             <div class="container-content-footer">
                 <span class="logo">@mhfrough</span>
                 <span class="social">
