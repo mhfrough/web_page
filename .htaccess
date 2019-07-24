@@ -3,3 +3,8 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^https://mhfrough.netlify.com/[nc]
 RewriteRule ^(.*)$ http://www.https://mhfrough.netlify.com//$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(ttf|ico|png|jpg|css|js)$">
+Header set Cache-Control "public, max-age=1928448000"
+</FilesMatch>
